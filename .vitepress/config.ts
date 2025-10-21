@@ -247,5 +247,33 @@ export default defineConfig({
         },
       },
     },
+
+    // --- Hindi Version ---
+    hi: {
+      label: "हिन्दी",
+      lang: "hi",
+      link: "/hi/",
+      title: "AgentRouter एकीकरण गाइड",
+      description: "AgentRouter एकीकरण गाइड",
+      themeConfig: {
+        lastUpdated: {
+          text: "अंतिम अपडेट",
+        },
+        nav: [
+          { text: "होम", link: "/hi/" },
+          {
+            text: "AgentRouter में पंजीकरण करें",
+            link: "https://agentrouter.org/register?aff=IPN5",
+          },
+          {
+            text: "X पर फॉलो करें",
+            link: "https://x.com/agentrouter",
+          },
+        ],
+        footer: {
+          copyright: "AgentRouter.org",
+        },
+      },
+    },
   },
 });
